@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: 'Inter';
+    background-color: #9fcdcd;
+    margin: auto;
+    height: 100%;
+
+}
+
+.country{
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.country-item{
+    width: 108px;
+    margin-bottom: 9px;
+}
+
+form label{
+    font-weight: 500;
+    font-size: 36px;
+    color: #1e5555;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+form input{
+    border: 2px solid #9fcdcd;
+    width: 447px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0, 4, 4, 0, #000000;
+}
+
+.btn{
+    border: 2px solid #9fcdcd; 
+    box-shadow: 0, 4, 4, 0, #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 115px;
+    height: 100px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+
+}
+
+form{
+    background-color: #ffffff;
+    width: 593px;
+    height: 577px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.konvert{
+    display: flex;
+    width: 785px;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.kurs-title{
+    font-weight: 700px;
+    font-size: 36px;
+    margin-top: 76px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.kurs-item{
+    width: 735px;
+    height: 117px;
+    border-top: 1px solid #000000;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.kurs{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 36px;
+
+}
+
+.kurs-block{
+    margin-bottom: 100px;
+    
+}
